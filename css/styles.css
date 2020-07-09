@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1132px){
+@media only screen and (min-width: 1335px){
 body{
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -14,7 +14,7 @@ main{
 footer{
     height: 200px;
 }
-.navbar {
+header .navbar {
     background-color: black;
     opacity: 60%;
     height: 100%;
@@ -24,23 +24,24 @@ footer{
     color: whitesmoke;
     font-size: 30px;
 }
-#h3-navbar{
+header .navbar #h3-navbar{
     font-weight: lighter;
     font-size: 23px;
     float: right;
+    border-right: rgba(206, 206, 14, 0.349);
 }
-#left-img{
+main #left-img{
     height: 400px;
-    width: 300px;
+    width: 500px;
     float: left;
 }
-#right-img{
+main #right-img{
     height: 400px;
-    width: 300px;
+    width: 500px;
     float: right;
 }
-div{
-    display: block;
+main #right-img #img-right{
+    padding-right: 50px;
 }
 }
     
