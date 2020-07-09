@@ -1,0 +1,46 @@
+@media only screen and (min-width: 1132px){
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 320px;
+
+}
+main{
+    height: 620px;
+    background-color: rgba(206, 206, 14, 0.349);
+}
+footer{
+    height: 200px;
+}
+.navbar {
+    background-color: black;
+    opacity: 60%;
+    height: 100%;
+    width: 100%;
+}
+#navbar-content{
+    color: whitesmoke;
+    font-size: 30px;
+}
+#h3-navbar{
+    font-weight: lighter;
+    font-size: 23px;
+    float: right;
+}
+#left-img{
+    height: 400px;
+    width: 300px;
+    float: left;
+}
+#right-img{
+    height: 400px;
+    width: 300px;
+    float: right;
+}
+div{
+    display: block;
+}
+}
+    
